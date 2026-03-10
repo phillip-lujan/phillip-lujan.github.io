@@ -1,207 +1,114 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
     <title>Power BI / Python Data Analyst</title>
 
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="vendors/prism/prism.css" rel="stylesheet">
     <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet" />
     <link href="css/user.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
 
-  </head>
-
-
-
-  <body>
-    <!-- ===============================================-->
-    <!--    Main Content-->
-    <!-- ===============================================-->
+<body>
     <main class="main" id="top">
-     
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-dark text-center py-9">
-        <div class="container">
-          <p class="text-light fs-1">About</p>
-          <div class="col-12 col-md-7 mx-auto">
-            <h1 class="text-white fs-lg-7 fs-md-4 fs-3 my-4">Creating Solutions That Make an Impact</h1>
-          </div>
-          <p class="w-md-50 text-light mx-auto">Turning data into insights, and insights into impactful decisions.</div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
+        <section class="bg-dark text-center py-9">
+            <div class="container">
+                <p class="text-light fs-1">About</p>
+                <div class="col-12 col-md-7 mx-auto">
+                    <h1 class="text-white fs-lg-7 fs-md-4 fs-3 my-4">Creating Solutions That Make an Impact</h1>
+                </div>
+                <p class="w-md-50 text-light mx-auto">Turning data into insights, and insights into impactful decisions.</p>
+            </div>
+        </section>
 
+        <section class="pb-0">
+            <div class="container-fluid">
+                <div class="gallery-wraper">
+                    <div class="img-wraper"><img class="img-fluid" src="Logos/balance_sheet_data_phil_lujan.PNG" alt="" /></div>
+                    <div class="img-wraper"><img class="img-fluid" src="Logos/bins_head_dataset_phil_lujan.PNG" alt="" /></div>
+                    <div class="img-wraper"><img class="img-fluid" src="Logos/clicks_website.png" alt="" /></div>
+                    <div class="img-wraper"><img class="img-fluid" src="Logos/descriptive_stats_ar_dataset_phil_lujan.PNG" alt="" /></div>
+                    <div class="img-wraper"><img class="img-fluid" src="Logos/network_bin_phil_lujan.PNG" alt="" /></div>
+                </div>
 
+                <div class="px-xl-8 px-md-5 px-3 py-8">
+                    <p class="fs-1">Phil Lujan</p>
+                    <div class="col-md-3 mb-4">
+                        <img src="Logos/phil_linkedin_profile_1.PNG" width="150" class="rounded shadow-sm">
+                    </div>
+                    <h1 class="fs-lg-6 fs-md-4 fs-3 my-4">Data-Driven Analytics Consultant Unlocking Growth and Success.</h1>
+                    <p class="fs-1">Phil Lujan is an experienced Analytics Tech Consultant based in Hayward, CA, specializing in data analysis, dashboard development, and actionable insights using tools like Power BI, Python and Google Analytics.</p>
+                    <p class="fs-1">Proficient in data cleaning, analysis, and visualization, Phil works seamlessly with Salesforce, ERP systems, and cross-functional teams to deliver impactful insights.</p>
+                </div>
+            </div>
+        </section>
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="pb-0">
-        <div class="container-fluid">
-          <div class="gallery-wraper">
-            <div class="img-wraper"><img class="img-fluid" src="Logos/balance_sheet_data_phil_lujan.PNG" alt="" /></div>
-            <div class="img-wraper"><img class="img-fluid" src="Logos/bins_head_dataset_phil_lujan.PNG" alt="" /></div>
-            
-            
-            <div class="img-wraper"><img class="img-fluid" src="Logos/clicks_website.png" alt="" /></div>
-            <div class="img-wraper"><img class="img-fluid" src="Logos/descriptive_stats_ar_dataset_phil_lujan.PNG" alt="" /></div>
-            <div class="img-wraper"><img class="img-fluid" src="Logos/network_bin_phil_lujan.PNG" alt="" /></div>
-          </div>
-          
-          <div class="px-xl-8 px-md-5 px-3 py-8">
-            <p class="fs-1">Phil Lujan</p>
-            
-            <div class="col-md-3"><img src="Logos/phil_linkedin_profile_1.PNG" width=150></div>
-              
-            <h1 class="fs-lg-6 fs-md-4 fs-3 my-4">Data-Driven Analytics Consultant Unlocking Growth and Success.</h1>
-            
-            
-            <p class="fs-1">Phil Lujan is an experienced Analytics Tech Consultant based in Hayward, CA, specializing in data analysis, dashboard development, and actionable insights using tools like Power BI, Python and Google Analytics. He has a proven track record of assisting businesses in establishing key metrics and KPIs to enhance decision-making and drive growth.</p>
+        <section class="py-5 bg-light mb-9"> <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="display-6 fw-bold mb-5 border-bottom pb-2">Education & Academic History</h2>
 
+                        <div class="mb-5">
+                            <h3 class="h4 fw-bold text-primary mb-1">M.S. Business Analytics (Completed 50% Coursework)</h3>
+                            <p class="text-secondary mb-2">
+                                <strong>Cal State East Bay</strong> | Hayward, California | 2017–2019
+                            </p>
+                            <div class="alert alert-warning py-2 small border-start border-4 border-warning shadow-sm">
+                                <i class="bi bi-exclamation-triangle-fill me-2"></i> 
+                                Note: Coursework paused due to COVID-19 shutdowns.
+                            </div>
+                            <p class="small fw-bold text-uppercase text-muted mb-2 ls-1">Completed Coursework:</p>
+                            <div class="row g-2">
+                                <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Prescriptive Analytics</span></div>
+                                <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Data Warehousing</span></div>
+                                <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Database Management</span></div>
+                                <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Marketing Analytics</span></div>
+                                <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Human Resource Analytics</span></div>
+                                <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Data Analysis & Decision Modeling</span></div>
+                            </div>
+                        </div>
 
-<p class="fs-1">
-Proficient in data cleaning, analysis, and visualization, Phil works seamlessly with Salesforce, ERP systems, and cross-functional teams, including directors and managers, to deliver impactful insights. With strong analytical expertise and a results-driven approach, he bridges the gap between data and strategy to support organizational success. You can reach Phil for data analytics inquiries via the form located on the website's front page.
-</p>
-<p>&nbsp</p>
-<p>&nbsp</p>
-<p>&nbsp</p>
-<p>&nbsp</p>
-</div>
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
+                        <hr class="my-4 opacity-25">
 
+                        <div class="mb-4">
+                            <h3 class="h4 fw-bold mb-1">B.S. Entrepreneurship & Management</h3>
+                            <p class="mb-0 text-dark">
+                                <strong>Arizona State University</strong> | Tempe/Mesa, Arizona | 2011–2014
+                            </p>
+                        </div>
 
+                        <hr class="my-4 opacity-25">
 
-<section class="py-5 bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <h2 class="display-6 fw-bold mb-5 border-bottom pb-2">Education & Academic History</h2>
+                        <div class="mb-5">
+                            <h3 class="h4 fw-bold mb-1">A.A.S. Accountancy</h3>
+                            <p class="mb-0 text-dark">
+                                <strong>Pima Community College</strong> | Tucson, Arizona | 2006–2008
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <div class="mb-5">
-          <h3 class="h4 fw-bold text-primary mb-1">M.S. Business Analytics (Completed 50% Coursework)</h3>
-          <p class="text-secondary mb-2">
-            <strong>Cal State East Bay</strong> | Hayward, California | 2017–2019
-          </p>
-          
-          <div class="alert alert-warning py-2 small border-start border-4 border-warning shadow-sm">
-            <i class="bi bi-exclamation-triangle-fill me-2"></i> 
-            Note: Coursework paused due to COVID-19 shutdowns.
-          </div>
-
-          <p class="small fw-bold text-uppercase text-muted mb-2 ls-1">Completed Coursework:</p>
-          <div class="row g-2">
-            <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Prescriptive Analytics</span></div>
-            <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Data Warehousing</span></div>
-            <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Database Management</span></div>
-            <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Marketing Analytics</span></div>
-            <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Human Resource Analytics</span></div>
-            <div class="col-md-6"><span class="badge bg-white text-dark border w-100 p-2 text-start">Data Analysis & Decision Modeling</span></div>
-          </div>
+    <footer class="footer bg-light py-4 border-top">
+        <div class="container text-center">
+            <a href="index.html" class="btn btn-dark btn-sm mb-3">Home</a>
+            <p class="mb-1">22568 Mission Blvd #303, Hayward, CA 94541</p>
+            <p class="copyright text-muted small">&copy; 2025 Phil Lujan | Cookies are not required for viewing of this site. No data is sold or given away.</p>
         </div>
+    </footer>
 
-        <hr class="my-4 opacity-25">
-
-        <div class="mb-4">
-          <h3 class="h4 fw-bold mb-1">B.S. Entrepreneurship & Management</h3>
-          <p class="mb-0 text-dark">
-            <strong>Arizona State University</strong> | Tempe/Mesa, Arizona | 2011–2014
-          </p>
-        </div>
-
-        <hr class="my-4 opacity-25">
-
-        <div class="mb-0">
-          <h3 class="h4 fw-bold mb-1">A.A.S. Accountancy</h3>
-          <p class="mb-0 text-dark">
-            <strong>Pima Community College</strong> | Tucson, Arizona | 2006–2008
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-		
-		
-
-
-		
-    </main><!-- ===============================================-->
-    <!--    End of Main Content-->
-    <!-- ===============================================-->
-
-
-
-
-
-                  
-    
-    <!-- footer -->
-			<div class="footer bg-light fixed-bottom">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 col-lg-12" align="center">
-	
-	<hr>
-	
-	
-	 <button type="button" class="btn btn-dark btn-sm"><a href="index.html">Home</a></button><br>
-	  
-							
-							
-							22568 Mission Blvd #303, Hayward, CA 94541</a>
-            
-							
-							<p class="copyright">&copy;&nbsp2025&nbspPhil Lujan&nbsp | &nbsp Cookies are not required for viewing of this site, and the user may disable cookies. No data is sold or given away.</p>
-		
-		
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End / footer -->
-    
-    
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
     <script src="vendors/popper/popper.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/anchorjs/anchor.min.js"></script>
-    <script src="vendors/is/is.min.js"></script>
-    <script src="vendors/fontawesome/all.min.js"></script>
-    <script src="vendors/lodash/lodash.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="vendors/prism/prism.js"></script>
-    <script src="vendors/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/theme.js"></script>
-  </body>
+</body>
 </html>
